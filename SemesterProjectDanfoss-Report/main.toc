@@ -4,35 +4,35 @@
 \contentsline {section}{\numberline {1.1}Project Objectives and Requirements}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Scrum Implementation}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Sprints}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Sprint 1}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Sprint 2}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sprint 3}{8}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Sprint 4}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Sprint 5}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Sprint 6}{16}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Solution (Technical Aspect)}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Package Diagram}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Class Diagram}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Activity Diagram}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Sequence Diagram}{21}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Overall Technical Architecture}{22}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Implementation and Technical Realization}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Frontend Implementation}{26}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Backend Implementation}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Data Management}{30}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Discussion \& Reflection}{32}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Scrum}{32}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Requirements Engineering}{32}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Refactoring}{32}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Code Review}{33}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Testing}{33}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Overall Group Reflection}{33}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Conclusion}{34}{chapter.7}%
-\contentsline {chapter}{References}{35}{chapter*.15}%
-\contentsline {chapter}{AI Usage}{36}{chapter*.16}%
-\contentsline {chapter}{\numberline {A}Team Contributions}{37}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Meeting Logs}{38}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Contracts}{39}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Code Authorship and Review}{46}{appendix.D}%
-\contentsline {chapter}{\numberline {E}Table of Requirements}{47}{appendix.E}%
+\contentsline {chapter}{\numberline {3}Sprints}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sprint 1}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Sprint 2}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Sprint 3}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Sprint 4}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Sprint 5}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Sprint 6}{18}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Solution (Technical Aspect)}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Package Diagram}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Class Diagram}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Activity Diagram}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Sequence Diagram}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Overall Technical Architecture}{24}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Implementation and Technical Realization}{28}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Frontend Implementation}{28}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Backend Implementation}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Data Management}{32}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Discussion \& Reflection}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Scrum}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Requirements Engineering}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Refactoring}{36}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Code Review}{36}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Testing}{36}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Overall Group Reflection}{36}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{37}{chapter.7}%
+\contentsline {chapter}{References}{38}{chapter*.15}%
+\contentsline {chapter}{AI Usage}{39}{chapter*.16}%
+\contentsline {chapter}{\numberline {A}Team Contributions}{40}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Meeting Logs}{41}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Contracts}{42}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Code Authorship and Review}{49}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Table of Requirements}{50}{appendix.E}%
