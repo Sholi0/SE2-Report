@@ -37,8 +37,8 @@
 \contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}%
 \contentsline {chapter}{References}{44}{chapter*.14}%
 \contentsline {chapter}{AI Usage}{45}{chapter*.15}%
-\contentsline {chapter}{\numberline {A}Team Contributions}{46}{chapter.A}%
-\contentsline {chapter}{\numberline {B}Meeting Logs}{47}{chapter.B}%
-\contentsline {chapter}{\numberline {C}Contracts}{48}{chapter.C}%
-\contentsline {chapter}{\numberline {D}Code Authorship and Review}{55}{chapter.D}%
-\contentsline {chapter}{\numberline {E}Table of Requirements}{56}{chapter.E}%
+\contentsline {chapter}{\numberline {A}Team Contributions}{46}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Meeting Logs}{47}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Contracts}{48}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Code Authorship and Review}{55}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Table of Requirements}{56}{appendix.E}%
