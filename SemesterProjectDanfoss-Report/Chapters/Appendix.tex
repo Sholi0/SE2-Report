@@ -41,5 +41,100 @@ code, e.g.\ classes and components.
 
 \chapter{Table of Requirements}\label{appendix:requirements}
 \section*{Functional Requirements}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{1.3cm}|p{3.5cm}|p{9.5cm}|}   
+        \hline
+        \cellcolor[HTML]{BFBFBF} ID & \cellcolor[HTML]{BFBFBF} Name & \cellcolor[HTML]{BFBFBF} Description \\
+        \hline
+        FRH01 & Gather Data & The user should be able to gather data from files or databases. Data are hourly informations of heat demand and electricity prices. \\
+        \hline
+        FRH02 & Gather Assets & The user should be able to gather assets with their specs from files or databases. \\
+        \hline
+        FRH03 & Displaying Data & The program should be able to display the data to the user, with informative diagrams. \\
+        \hline
+        FRH04 & Displaying Assets & The program should be to display the assets to the user. \\
+        \hline
+        FRH05 & Optimizer & The user should be able to configure the optimizer. \\
+        \hline
+        FRH06 & Display Results & The results from the Optimizer should be displayed, with informative diagrams. \\
+        \hline
+        FRH07 & Export Results & he user should be able to export the results as like a csv file. \\
+        \hline
+        FRH08 & Optimizer Gathering & The optimizer needs to get the right data and assets based on the configuration of the user. \\
+        \hline
+        FRH09 & Optimizer Results & The output of the optimizer is calculated by the assets and data. Maintenance periods for individual assets should be calculated as well. \\
+        \hline
+        FR01 & Storing Heating-Grid Data (AM) & The system shall store heating-grid configuration data in local files. \\
+        \hline
+        FR02 & Providing Heating-Grid Data (AM) & The system shall provide heating-grid information (name and graphical representation) to other modules. \\
+        \hline
+    \end{tabular}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{1.3cm}|p{3.5cm}|p{9.5cm}|}   
+        \hline
+        FR03 & Storing Production Units Data (AM) & The system shall store configuration data for all production units. \\
+        \hline
+        FR04 & Providing Production Units Data (AM) & The system shall provide name, graphical representation, and operation-point parameters for each unit.  \\
+        \hline
+        FR05 & Storing System Information (SDM) & The system shall store system information (heat demand and electricity prices) in local CSV files. \\
+        \hline
+        FR06 & Providing Heat-Demand (SDM) & The system shall provide hourly heat-demand time series. \\
+        \hline
+        FR07 & Providing Electricity-Price (SDM) & The system shall provide hourly electricity-price time series. \\
+        \hline
+        FR08 & Storing Optimization Results (RDM) & The system shall store optimization results in local CSV files. \\
+        \hline
+        FR09 & Creating Separate Results (RDM) & The system shall create separate result data for each production unit, which includes produced amount of heat, produced/consumed electricity, production costs, consumption of primary energy and produced amount of CO2. \\
+        \hline
+        FR10 & Calculating Optimized Schedule (OPT) & The system shall calculate an optimized heat-production schedule for a given period. \\
+        \hline
+        FR11 & Ensuring Heat Availability (OPT) & The system shall ensure that heat demand is met at any time. \\
+        \hline
+        FR12 & Compute Net-Production (OPT) & The system shall compute net production costs for each unit for each hour. \\
+        \hline
+        FR13 & Prioritizing Units (OPT) & The system shall prioritize units based on their net production costs \\
+        \hline
+        FR14 & Allowing Operation Points (OPT) & The system shall allow units to operate anywhere between 0 and their maximum operation point. \\
+        \hline
+        FR15 & Supporting Maintenance (OPT) & The system shall support planned maintenance periods (30-60 hours), during which units are excluded from optimization. \\
+        \hline
+        FR16 & Vizualizing Configurations (DV) & The system shall graphically display the configuration of the heating grid and production units. \\
+        \hline
+        FR17 & Vizualizing Time Series (DV) & The system shall visualize time series for heat demand, heat production, electricity production/consuption, electricity prices, expenses and profit, primary energy consumption, and CO2 emissions. \\
+        \hline
+    \end{tabular}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{1.3cm}|p{3.5cm}|p{9.5cm}|}   
+        \hline
+        FR18 & Vizualizing Net Production Cost (DV) & The system shall visualize net production costs for all units. \\
+        \hline
+        FR19 & Including Scenarios & The system shall include Scenario 1 and Scenario 2. \\
+        \hline
+    \end{tabular}
+\end{table}
+
 \section*{Non-Functional Requirements}
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{1.3cm}|p{3.5cm}|p{9.5cm}|}   
+        \hline
+        \cellcolor[HTML]{BFBFBF} ID & \cellcolor[HTML]{BFBFBF} Name & \cellcolor[HTML]{BFBFBF} Description \\
+        \hline
+        NFR01 & Required Modules & The system shall have following modules: AM, SDM, RDM, OPT, and DV. \\
+        \hline
+        NFR02 & Static Data Storage & Static configuration data for heating grid and production units shall be stored in local files. \\
+        \hline
+        NFR03 & Dynamic Data Storage & Dynamic heat demand and electricity price data as well as the optimization results shall be stored in local CSV files. \\
+        \hline
+        NFR04 & Time Series Resolution & Input time-series resolution shall be 1 hour. \\
+        \hline
+        NFR05 & Datasets & The system shall support a two week dataset for winter and summer periods. \\
+        \hline
+    \end{tabular}
+\end{table}
