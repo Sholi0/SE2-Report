@@ -39,17 +39,15 @@ In general, the design divides tasks among different classes, which makes it sim
 
 The activity diagram represents the user interaction flow with the heat optimization system. The user begins with choosing the desired scenario followed by the heating period. Then, he or she can either proceed to edit production units or directly to the execution of the optimizer. After the system calculates the results, the user can export the data, view the charts or exit the program. The decision paths shown on the diagram represent the flexibility of the flow as the user can revisit earlier steps.\par
 
-...diagram in progress
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figures/Diagrams/ActivityDiagram.png}
+    \caption{Activity Diagram}
+    \label{fig:activity}
+\end{figure}
 
 The diagram models the optimization execution process from the perspective of the user, rather than low-level implementation. Therefore, it provides a clear and intuitive representation of the workflow, which can be used to communicate the system behaviour to non-technical readers or stakeholders. Moreover, the diagram is used as a validation of the business objectives and high-level requirements, and to provide documentation for future maintenance.\par
-Actions and the flow presented on the diagram connect to the implementation of UI functions and how user actions trigger system events. The support of loading pre-configured scenarios allows the user to run the optimization right after selecting the scenario and heating period, without the need to edit the units. The optimization and production units’ configuration pages are separate, and they can be accessed at any time. Once the optimization is started by pressing the Run Optimization button, the charts are updated with new data, and the export button becomes enabled.
-
-%\begin{figure}[H] 
-%    \centering
-%    \includegraphics[width=0.75\textwidth]{Figures/Diagrams/ActivityDiagram.png}
-%    \caption{Activity Diagram}
-%    \label{fig:activity}
-%\end{figure}
+Actions and the flow presented on the diagram connect to the implementation of UI functions and how user actions trigger system events. The support of loading pre-configured scenarios allows the user to run the optimization right after selecting the scenario and heating period, without the need to edit the units. The optimization and production units’ configuration pages are separate, and they can be accessed at any time. Once the optimization is started by pressing the Run Optimization button, the charts are updated with new data, and the export button becomes enabled. The user can choose to either view both or one of them, or directly exit the program.
 
 % --------------------------------
 \section{Sequence Diagram}
