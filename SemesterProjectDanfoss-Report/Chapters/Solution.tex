@@ -53,6 +53,13 @@ Actions and the flow presented on the diagram connect to the implementation of U
 \section{Sequence Diagram}
 The diagram was included to illustrate the system workflow and how data flows from user input through processing to result visualization. It helps to clarify how the ViewModel layer, DataManager, and Optimizer interact during the full optimization process, from scenario setup to result presentation.\par
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figures/Diagrams/SequenceDiagram.png}
+    \caption{Sequence Diagram}
+    \label{fig:sequence}
+\end{figure}
+
 The process starts when the user sets up a scenario and chooses assets using the ViewModels. This triggers system initialization via the DataManager. The DataManager gets information about assets from the Asset Manager and also collects time-related data like demand and electricity prices from the Source Data Manager. After gathering all the necessary information, we start the optimization process and send it to the Optimizer.\par
 
 The Optimizer looks at the data step by step for each time period, checking the demand and price situations. For every asset, it figures out the production costs, ranks the assets according to how economically efficient they are, and decides the best way to allocate production while following the operational limits. Once the optimization is finished, the results are gathered and saved in the Result Data Manager.\par
@@ -61,13 +68,6 @@ When the user asks for it, the ViewModels fetch the results and show them in the
 
 This design was selected to keep a clear distinction between managing data, optimizing processes, and showing the user interface. It makes it easier to take care of, helps the system grow, and allows for effective management of complicated optimization results, all while keeping the system workflow organized and easy to understand.\par
 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{Figures/Diagrams/SequenceDiagram.png}
-    \caption{Sequence Diagram}
-    \label{fig:sequence}
-\end{figure}
 
 % --------------------------------
 \section{Overall Technical Architecture}
