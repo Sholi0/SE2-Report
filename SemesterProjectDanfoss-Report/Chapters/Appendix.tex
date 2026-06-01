@@ -1,25 +1,214 @@
 
 \chapter{Team Contributions}
-Table of precise contributions of each team member for both the report
+List of precise contributions of each team member for both the report
 and the development part.
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{lp{5cm}p{5cm}}
-        \toprule
-        \textbf{Student} & \textbf{Report Contributions} &
-        \textbf{Development Contributions} \\
-        \midrule
-        David Avramov & & \\
-        Gintaras Zulys & & \\
-        Leon Jürgen Thye & & \\
-        Nadia Kristensen & & \\
-        Oliwia Roksana Moskalik & & \\
-        Yaroslav Savenko & & \\
-        \bottomrule
-    \end{tabular}
-    \caption{Team Contribution Overview}
-\end{table}
+\section*{David Avramov}
+\subsection*{Code}
+\subsubsection*{Frontend}
+Revamping colors for the OptimizerViewModel page, adding additional attributes to OverviewViewModel page netcost graph, GUI tests for ViewModels, revamped the Avalonia Headless tests.
+\subsubsection*{Backend}
+Initial implementation of Scenario 1 Optimizer and RDM with CSV implementation, implementation of the Backend Overview Page, initial implementation of the Maintenance section in the Optimizer, support for the Optimizer for Scenario 2, Unit tests for AM, Optimizer and OverviewViewModel, fixed profit/revenue confusion in Optimizer logic.
+\subsubsection*{Pull Requests}
+\begin{itemize}
+    \item RDM implementation \#6
+    \item Optimizer implementation \#12
+    \item Initial implementation of overview page(Incomplete) \#19
+    \item Optimizer maintenance mechanisms implementation \#22
+    \item Additional implementation in Optimizer \#27
+    \item Added AM unit tests \#35
+    \item GUI tests - ViewModels \#42
+    \item Revamping graph colors \#43
+    \item Optimizer profit fix \#44
+
+\end{itemize}
+\subsubsection*{Pull Requests Reviewed}
+\begin{itemize}
+    \item Demo 05 18 \#34
+    \item Fix optimizer \#37
+    \item even more detailed optimizer charts \#38
+    \item Production units page fix \#40(along with Gintaras)
+    \item improve gitignore \#39
+    \item better optimizer error handling \#45
+
+\end{itemize}
+\subsection*{Report}
+Wrote Data Management and Sprint 6. Made corrections and fixed errors to my sections.
+\subsubsection*{Report Reviewed}
+Reviewed Backend and Front Implementation, Overall technical architecture, Sprint 3. Smaller reviews in other sections(not as thorough). Reviewed the Graphics for Sprint 6 in the LaTeX repo PR.
+\subsection*{AI}
+No AI usage on my part with contributions. From what I am aware, AI was only used for corrections in the initial Scrum Implementation, Abstract and parts of the class diagram text. They were re-written in the final version of the report to not include any AI usage.
+
+\section*{Gintaras Zulys}
+\subsection*{Code}
+\subsubsection*{Frontend}
+Main navigation layout implementation, production units and configuration page Figma prototype, frontend optimizer page implementation, backend optimizer page implementation, better GUI design based on feedback, implemented redesigned GUI. Chart-related changes: layered charts in overview page, dynamic colors from AM, added customizing production unit colors for units, added support for time scale, Added more diagrams for optimizer transparency decision-making. Correct handling of multiple scenarios and periods changing for UI.
+\subsubsection*{Backend}
+SDM implementation \& testing, optimizer scenario JSON file loader, added scenario JSON files for all scenarios. Optimizer proper maintenance support, more thorough tests and slight refactoring. Wrote better optimizer error handling (popup, progress bar, catching errors). \newline \newline
+RDM rewriting to support charts (Modified many parts, including DM, optimizer, RDM and optimizer page) and exports in JSON. Code refactoring and cleanup, expanded RDM to support storing multiple scenarios and periods.
+\subsubsection*{Pull Requests}
+\begin{itemize}
+    \item SDM implementation \#1
+    \item Sdm testing \#3 (changes are made by me but PR opened by Leon with his fixes)
+    \item implement gui navigation layout \#4
+    \item add more SDM testing \#7
+    \item Frontend optimizer \#8
+    \item implement backend optimizer \#13
+    \item Rdm charts \#15
+    \item scenario JSON, dynamic period update \#16
+    \item scenario data AM \#20
+    \item scenario 2 data \#23
+    \item add layered diagram with dynamic colors from AM \#24
+    \item implement improved GUI design \#28
+    \item Refactoring \& cleanup \#30 (closed and merged in another PR with merge conflicts resolved)
+    \item more scenarios \#31
+    \item production unit color \#32
+    \item Demo 05 18 \#34 (cleanups \& other PRs with merge conflicts resolved)
+    \item Fix optimizer \#37
+    \item even more detailed optimizer charts \#38
+    \item improve gitignore \#39
+    \item better optimizer error handling \#45
+\end{itemize}
+\subsubsection*{Pull Requests Reviewed}
+\begin{itemize}
+    \item RDM implementation \#6
+    \item Data manager \#11
+    \item Backend product units page \#18
+    \item Maintenance rework \#25
+    \item Additional implementation in Optimizer \#27
+    \item Added unit images to production units page \#29
+    \item maintenance PoC \#33
+    \item Added AM unit tests \#35
+    \item Side panel improvement \#36
+    \item Production units page fix \#40
+    \item Diagrams fix 05 25 \#41
+    \item GUI tests - ViewModels \#42
+    \item Revamping graph colors \#43
+    \item Optimizer profit fix \#44
+    \item End-to-End \#46
+
+\end{itemize}
+\subsection*{Report}
+Wrote Sprint 1 report, overall technical architecture, frontend implementation, backend implementation, refactoring, code review, sprint implementation (sprint plan), overall group reflection, references. \newline \newline
+Many small fixes throughout the whole report based on feedback from Alan and Adam - making text more formal, slight reordering, fixing, grammar. Created custom sprint backlog graphics for all Jira screenshots from sprint planning and reviews, for more readability.
+\subsubsection*{Report Reviewed}
+Reviewed all changed parts of the report continuously with many changes suggested. It includes Sprint 2, Sprint 5, Sprint 6, package diagram, discussion sections, Abstract, Scrum Implementation, Conclusion, AI usage and many more. Reviewed many LaTeX PRs and have reviewed the entire report multiple times.
+\subsection*{AI}
+The only use of AI disclosed to me was by Nadia, who used corrections for early revisions of Abstract, Scrum Implementation and a part of class diagram text. All relevant sections were fully rewritten manually in the final version without use of AI to my knowledge.
+
+\section*{Leon Jürgen Thye}
+\subsection*{Code}
+\subsubsection*{Frontend}
+Backend Connection of Production Unit Page, Moving of configuration page into Production Unit Page, Production Unit Page, mostly reviewing. Project structure updates, early cleanups.
+\subsubsection*{Backend}
+Creation of DataManager, Backend connection to Frontend of  Production Unit, mostly reviewing. Project structure updates, early cleanups.
+\subsubsection*{Pull Requests}
+\begin{itemize}
+    \item Data manager \#11
+    \item Backend product units page \#18
+    \item Maintenance rework \#25
+\end{itemize}
+\subsubsection*{Pull Requests Reviewed}
+\begin{itemize}
+    \item SDM implementation \#1
+    \item Sdm testing \#3
+    \item implement gui navigation layout \#4
+    \item implement Am, populate Asset folder \#5
+    \item RDM implementation \#6 (together with Gintaras)
+    \item add more SDM testing \#7
+    \item Frontend optimizer \#8
+    \item Configuration page layout \#9
+    \item Optimizer implementation \#12
+    \item implementation backend optimizer \#13
+    \item wip: unfinished production units frontend \#14 
+    \item Rdm charts \#15
+    \item scenario JSON, dynamic period update \#16
+    \item Initial implementation of overview page(Incomplete) \#19
+    \item scenario data AM \#20
+    \item Optimizer maintanance mechanisms implementation \#22
+    \item scenario 2 data \#23
+    \item add layered diagram with dynamic colors from AM \#24
+    \item add heatgrid map to overview \#26
+
+\end{itemize}
+\subsection*{Report}
+Written Sprint 2 first drafts got helped by Gintaras for finishing it. Written some of the first functional and nonfunctional requirements, moved functional and nonfunctional requirements into LaTeX for the report Appendix, moved Meeting-Logs to into LaTeX for the report Appendix, written my contribution, written Authorship and Reviews for Appendix. 
+\subsubsection*{Report Reviewed}
+Just done one LaTeX based Review
+\subsection*{AI}
+Non AI use of my part in all of my contributions. And I did not know of any AI usage in the project.
+
+\section*{Nadia Kristensen}
+\subsection*{Code}
+\subsubsection*{Frontend}
+Frontend overview page, fixed the diagrams slightly like for adding the legends for each diagram and the axis units, adding a layered diagram for the costs, adding electricity production and consumption graph and few more
+\subsubsection*{Backend}
+Backend configuration page, End-to-End testing
+\subsubsection*{Pull Requests}
+\begin{itemize}
+    \item frontend-overview-page (Manual Merge)
+    \item configuration-backend (Manual Merge)
+    \item fixed -diagrams \#40
+    \item End-to-End \#46
+    \item E2E \#47
+\end{itemize}
+\subsection*{Report}
+Wrote Sprint 5, Class Diagram, Sequence Diagram, Package Diagram, Abstract, Scrum Implementation, Conclusion, AI Usage, Testing, Requirements Engineering
+\subsubsection*{Report Reviewed}
+Reviewed most changed parts of the report. It includes Sprint 4, discussion and reflection (Scrum, Refactoring), backend and frontend implementation
+\subsection*{AI}
+I used AI for early revisions for Abstract, Scrum Implementation and a part of class diagram text. Now all sections are fully rewritten without usage of AI.
+
+
+\section*{Oliwia Roksana Moskalik}
+\subsection*{Code}
+I designed the Figma prototype for the optimizer page and designed the optimizer algorithm. I implemented the frontend configuration page (no longer in the final product), images for the production units page, and updated visuals for the side navigation panel.
+\subsection*{Pull Requests}
+\begin{itemize}
+    \item frontend-configuration \#9
+    \item unit-icons \#29
+    \item side-panel-improvements \#36
+\end{itemize}
+\subsubsection*{Code Review}
+I reviewed the implementation of improved GUI design, addition of production unit colours and graph colours improvement.
+\begin{itemize}
+    \item Implement improved GUI design \#28
+    \item Production unit color \#32
+\end{itemize}
+\subsection*{Report}
+I set up the document for the report, LaTeX repository and later transferred most of the report to LaTeX. I wrote Problem Statement, Sprint 4, Activity Diagram, and Scrum Discussion. I wrote and added Group and Supervisor contracts. I wrote the majority of the functional and non-functional requirements and meeting logs up to Sprint 5, which were both later transferred to the LaTeX version of the report by Leon. Lastly, I corrected and improved grammatically many sections, both based on Alan or Adam´s feedback and my own reviews of the whole report.
+\subsubsection*{Report Reviewed}
+I continuously reviewed all changes to the report, both on Google Docs and GitHub. Reviewed PRs included updated report sections based on Adam and Alan´s feedback, Sprint 2, adding references to the report, general review of the whole report and many small fixes of the LaTeX version. 
+\subsection*{AI}
+It was disclosed to me that AI was used for Abstract, Scrum Implementation and two sentences in Class Diagram. To my knowledge, those parts were later rewritten without AI support. I am not aware of any other use of AI in the report or the code base.
+
+\section*{Yaroslav Savenko}
+\subsection*{Code}
+\subsubsection*{Frontend}
+Mainly production units page implementation including further additional fixes, added visual grid representation to the overview page.
+\subsubsection*{Backend}
+AM implementation.
+\subsubsection*{Pull Requests}
+\begin{itemize}
+    \item Add local json to AM \#2
+    \item implement AM, populated Asset folder \#5
+    \item wip: unfinished production units frontend \#14
+    \item add heatgrind map to overview \#26
+    \item maintenance PoC \#33
+    \item Production units page fix \#40
+\end{itemize}
+\subsection*{Report}
+\begin{itemize}
+    \item Two reviews of the LaTeX report (Meeting Logs, Sprint 3 correction)
+    \item Made some reviews in the google docs(Abstract, Technical Aspect)
+\end{itemize}
+\subsubsection*{Report Reviewed}
+\begin{itemize}
+    \item Problem requirements \& problem objectives
+    \item Sprint 3
+\end{itemize}
+\subsection*{AI}
+During the course of the project no AI was used on my part, all of the code refactoring was done manually, no additional checks were made on my part, so I am not aware of any external usage of AI.
 
 \chapter{Meeting Logs}\label{appendix:meetinglogs}
 
@@ -1261,6 +1450,31 @@ and the development part.
 
 \chapter{Code Authorship and Review}
 
+Authorship and Reviewes per modules:
+\section*{AM}
+\textbf{Author:} Gintaras, Yaroslav, Leon, David
+\textbf{Reviewer:} Leon, Gintaras, Oliwia, Yaroslav, David
+\section*{SDM}
+\textbf{Author:} Gintaras, Leon, Yaroslav
+\textbf{Reviewer:} Leon, Gintaras
+\section*{RDM}
+\textbf{Author:} Gintaras, David, Leon
+\textbf{Reviewer:} Leon, Gintaras
+\section*{Optimizer}
+\textbf{Author:} David, Gintaras, Leon, Nadia, Yaroslav
+\textbf{Reviewer:} Gintaras, Leon, David
+\section*{Data Visualization}
+\textbf{Author:} Gintaras, Nadia, Leon, Yaroslav, David, Oliwia
+\textbf{Reviewer:} Gintaras, Leon
+\section*{Optimizer page}
+\textbf{Author:} Gintaras, Nadia, Leon
+\textbf{Reviewer:} Leon, Gintaras, Oliwia, David 
+\section*{Overview page}
+\textbf{Author:} Nadia, Gintaras, David, Leon, Yaroslav
+\textbf{Reviewer:} Leon, Gintaras, Oliwia 
+\section*{Production units page}
+\textbf{Author:} Leon, Yaroslav, Gintaras, Oliwia, Nadia
+\textbf{Reviewer:} Leon, Gintaras, Oliwia 
 
 \chapter{Table of Requirements}\label{appendix:requirements}
 \section*{Functional Requirements}
